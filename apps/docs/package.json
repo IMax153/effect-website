@@ -1,0 +1,21 @@
+{
+  "name": "docs",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.3",
+    "@astrojs/starlight": "^0.28.2",
+    "@expressive-code/core": "0.35.6",
+    "@plugins/code-import": "workspace:^",
+    "astro": "^4.15.9",
+    "sharp": "^0.32.6",
+    "twoslash": "^0.2.11"
+  }
+}
